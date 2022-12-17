@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace ResurantReactpro.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController] 
     public class ReactController : ControllerBase
     {
         private readonly IAllRepo _IAllRepo;
